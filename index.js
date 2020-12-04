@@ -7,7 +7,7 @@ const chalk=require("chalk");
 
     var username=Readlinesync.question("May I have your name please!");
     console.log
-    console.log(chalk.yellowBright.bold("Welcome "+ username+"!\n" + "Do you know Mohit?Y/N"    ));
+    console.log(chalk.yellowBright.bold("Welcome "+ username+"!\n" + "Do you know Mohit?" ));
 
 
 
@@ -29,7 +29,9 @@ const chalk=require("chalk");
         {question:'which sports do I like the most?',answer:'football'},
         {question:'what is my favourite food?',answer:'Burger'},
         {question:"what is my DOB(dd-mm-yyyy)?",answer:"26-01-2000"},
-        {question:'Do I wear spectacles?',answer:'no'}
+        {question:'Do I wear spectacles?',answer:'no'},
+        {question:'Do I have curly hairs?',answer:'yes'}
+        
      
     
         ];
